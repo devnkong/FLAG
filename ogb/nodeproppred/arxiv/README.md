@@ -1,16 +1,21 @@
 # ogbn-arxiv
 
-```
-#MLP+FLAG
-python mlp.py
+To train baselines with FLAG in the default setup, run
 
-# GCN+FLAG
-python gnn.py
+**MLP+FLAG**
+                    
+        python mlp.py
 
-# GraphSAGE+FLAG
-python gnn.py --use_sage
+**GCN+FLAG**
 
-# GAT+FLAG
-python gat.py --use-norm --use-labels
+        python gnn.py
+
+**GraphSAGE+FLAG**
+        
+        python gnn.py --use_sage
+
+**GAT+FLAG**
+        
+        python gat.py --use-norm --use-labels
 
 ```
