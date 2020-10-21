@@ -29,7 +29,7 @@ parser.add_argument('--epochs', type=int, default=3)
 parser.add_argument('--runs', type=int, default=10)
 parser.add_argument('--batch-size', type=int, default=1024)
 
-parser.add_argument('--step-size', type=float, default=5e-3)
+parser.add_argument('--step-size', type=float, default=1e-4)
 parser.add_argument('-m', type=int, default=3)
 parser.add_argument('--test-freq', type=int, default=1)
 parser.add_argument('--attack', type=str, default='flag')
