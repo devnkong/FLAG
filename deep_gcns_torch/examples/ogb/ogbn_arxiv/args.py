@@ -69,7 +69,6 @@ class ArgsInit(object):
         self.args = parser.parse_args()
 
     def save_exp(self):
-        #newly added operations
 
         self.args.save = '{}-B_{}-C_{}-L_{}-F_{}-DP_{}' \
                     '-GA_{}-T_{}-LT_{}-P_{}-LP_{}' \

@@ -73,7 +73,7 @@ def main():
     else:
         device = torch.device('cpu')
 
-    dataset = PygNodePropPredDataset(name=args.dataset, root='/cmlscratch/kong/datasets/ogb')
+    dataset = PygNodePropPredDataset(name=args.dataset)
     data = dataset[0]
     split_idx = dataset.get_idx_split()
 

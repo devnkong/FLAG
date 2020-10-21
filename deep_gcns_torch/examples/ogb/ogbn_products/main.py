@@ -119,7 +119,7 @@ def main():
     else:
         device = torch.device('cpu')
 
-    dataset = PygNodePropPredDataset(name=args.dataset, root=args.data_folder)
+    dataset = PygNodePropPredDataset(name=args.dataset)
     graph = dataset[0]
 
     adj = SparseTensor(row=graph.edge_index[0],

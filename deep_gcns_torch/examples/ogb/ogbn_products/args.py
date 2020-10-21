@@ -65,26 +65,14 @@ class ArgsInit(object):
                             help='the path of pre-trained model')
 
         #newly added attack hyper-parameters
-        parser.add_argument('--eps', type=float, default=1e-2)
         parser.add_argument('--step-size', type=float, default=5e-3)
         parser.add_argument('-m', type=int, default=3)
-        parser.add_argument('--times', type=float, default=1.0)
-        parser.add_argument('--same-epoch', action='store_true')
-        parser.add_argument('--unsym', action='store_true')
         parser.add_argument('--amp', type=int, default=2)
 
-        parser.add_argument('--data-folder', type=str, default='.')
 
         self.args = parser.parse_args()
 
     def save_exp(self):
-        #newly added operations
-        if self.args.same_epoch :
-            pass
-        else :
-            self.args.epochs = self.args.epochs // self.args.m + 1
-        self.args.eps *= self.args.times
-        self.args.step_size *= self.args.times
 
         self.args.save = '{}-B_{}-C_{}-L_{}-F_{}-DP_{}' \
                     '-GA_{}-T_{}-LT_{}-P_{}-LP_{}' \
