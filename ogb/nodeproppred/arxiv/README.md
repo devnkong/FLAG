@@ -16,4 +16,4 @@ To train baselines with FLAG in the default setup, run
 
 **GAT+FLAG**
         
-        python gat.py --use-norm --use-labels
+        python gat_dgl/gat.py --use-norm --use-labels
