@@ -1,7 +1,10 @@
-Firstly add these two sets of args.
-Should be compatible with virtual node directly, could have a try also.
+# FLAG
 
-    --same-epoch 
+To run in the default setup
+
+	python main.py --use_gpu --conv_encode_edge --num_layers 28 --gcn_aggr softmax_sg --t 0.01
+
+--------------------------------------------------------------------------------
 
 # ogbg-ppa
 We initialize the features of nodes of ogbg_ppa dataset through aggregating the features of their connected edges by a Sum (Add) aggregation, just like what we do for ogbn_proteins.
