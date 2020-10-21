@@ -1,8 +1,10 @@
-Firstly add these two sets of args
+# FLAG
 
-    --same-epoch --unsym
-    --same-epoch
+To run in the default setup
 
+	python main.py --use_gpu --conv_encode_edge --num_layers 112 --block res+ --gcn_aggr softmax --t 1.0 --learn_t --dropout 0.1
+
+--------------------------------------------------------------------------------
 # ogbn-proteins
 
 We simply apply a random partition to generate batches for both mini-batch training and test. We set the number of partitions to be 10 for training and 5 for test, and we set the batch size to 1 subgraph.  We initialize the features of nodes through aggregating the features of their connected edges by a Sum (Add) aggregation.
