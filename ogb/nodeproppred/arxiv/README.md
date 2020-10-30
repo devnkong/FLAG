@@ -16,6 +16,6 @@ To train baselines with FLAG in the default setup, run
 
 **GAT+FLAG**
 
-For baseline GAT model, please refer to [here](https://github.com/Espylapiza/dgl/tree/master/examples/pytorch/ogb/ogbn-arxiv).
+For baseline GAT model, please refer to [here](https://github.com/Espylapiza/dgl/tree/master/examples/pytorch/ogb/ogbn-arxiv). This one is the `GAT(norm. adj.)+labels` version.
         
         python gat_dgl/gat.py --use-norm --use-labels
