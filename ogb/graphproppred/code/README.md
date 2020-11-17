@@ -1,15 +1,20 @@
 # ogbg-code
 
-```
-#GCN+FLAG
-python main_pyg.py --gnn gcn --step-size 8e-3
+To train baselines with FLAG in the default setup, run
 
-#GCN+V+FLAG
-python main_pyg.py --gnn gcn-virtual --step-size 8e-3
+**GCN+FLAG**
 
-#GIN+FLAG
-python main_pyg.py --gnn gin --step-size 8e-3
+        python main_pyg.py --gnn gcn --step-size 8e-3
 
-#GIN+V+FLAG
-python main_pyg.py --gnn gin-virtual --step-size 8e-3
-```
+**GCN+V+FLAG**
+ 
+        python main_pyg.py --gnn gcn-virtual --step-size 8e-3
+
+**GIN+FLAG**
+
+        python main_pyg.py --gnn gin --step-size 8e-3
+
+**GIN+V+FLAG**
+
+        python main_pyg.py --gnn gin-virtual --step-size 8e-3
+

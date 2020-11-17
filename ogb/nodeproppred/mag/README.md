@@ -1,7 +1,10 @@
 # ogbn-mag
 
-```
-#RGCN+FLAG
-python sampler.py
+To train baselines with FLAG in the default setup, run
 
-```
+
+**RGCN+FLAG**
+
+        python sampler.py
+
+
