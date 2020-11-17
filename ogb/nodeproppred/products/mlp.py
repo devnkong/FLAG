@@ -94,7 +94,7 @@ def main():
     parser.add_argument('--runs', type=int, default=10)
 
 
-    parser.add_argument('--step-size', type=float, default=5e-3)
+    parser.add_argument('--step-size', type=float, default=2e-2)
     parser.add_argument('-m', type=int, default=3)
     parser.add_argument('--test-freq', type=int, default=1)
     parser.add_argument('--start-seed', type=int, default=0)
