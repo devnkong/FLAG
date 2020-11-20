@@ -19,7 +19,7 @@ Other baselines including **GCN**, **GraphSAGE**, **GAT**, **GIN**, **MLP**, etc
 
 To view the empirical performance of FLAG, please visit the Open Graph Benchmark [Node](https://ogb.stanford.edu/docs/leader_nodeprop/) an [Graph](https://ogb.stanford.edu/docs/leader_graphprop/) classification leaderboards.
 
-## Requirements
+### Requirements
 
 - ogb=1.2.3
 - torch-geometric=1.6.1
