@@ -6,7 +6,7 @@ Data augmentation helps neural networks generalize better, but it remains an ope
 
 ## Experiments
 
-To reproduce experiment results for **DeeperGCN**, visit [here](https://github.com/devnkong/FLAG/tree/main/deep_gcns_torch/examples/ogb).
+To reproduce experimental results for **DeeperGCN**, visit [here](https://github.com/devnkong/FLAG/tree/main/deep_gcns_torch/examples/ogb).
 
 Other baselines including **GCN**, **GraphSAGE**, **GAT**, **GIN**, **MLP**, etc. are available [here](https://github.com/devnkong/FLAG/tree/main/ogb).
 
