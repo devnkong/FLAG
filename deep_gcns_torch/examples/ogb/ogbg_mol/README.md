@@ -1,6 +1,6 @@
 # FLAG
 
-To run in the default setup
+To run in the default setup and reproduce experimental results, below are the commands.
 
 ## ogbg-molhiv
 
