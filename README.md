@@ -8,7 +8,9 @@ Data augmentation helps neural networks generalize better, but it remains an ope
 
 To reproduce experiment results for **DeeperGCN**, visit [here](https://github.com/devnkong/FLAG/tree/main/deep_gcns_torch/examples/ogb).
 
-Other baselines including **GCN**, **GraphSAGE**, **GAT**, **GIN**, etc. are available [here](https://github.com/devnkong/FLAG/tree/main/ogb).
+Other baselines including **GCN**, **GraphSAGE**, **GAT**, **GIN**, **MLP**, etc. are available [here](https://github.com/devnkong/FLAG/tree/main/ogb).
+
+To view the empirical performance of FLAG, please visit the Open Graph Benchmark [Node](https://ogb.stanford.edu/docs/leader_nodeprop/) an [Graph](https://ogb.stanford.edu/docs/leader_graphprop/) classification leaderboards.
 
 ## Requirements
   - ogb=1.2.3
