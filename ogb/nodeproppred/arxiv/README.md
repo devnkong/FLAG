@@ -3,19 +3,25 @@
 To train baselines with FLAG in the default setup, run
 
 **MLP+FLAG**
+
+The baseline model [here](https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/arxiv).
                     
-        python mlp.py
+    python mlp.py
 
 **GCN+FLAG**
 
-        python gnn.py
+The baseline model [here](https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/arxiv).
+
+    python gnn.py
 
 **GraphSAGE+FLAG**
+
+The baseline model [here](https://github.com/snap-stanford/ogb/tree/master/examples/nodeproppred/arxiv).
         
-        python gnn.py --use_sage
+    python gnn.py --use_sage
 
 **GAT+FLAG**
 
-For baseline GAT model, please refer to [here](https://github.com/Espylapiza/dgl/tree/master/examples/pytorch/ogb/ogbn-arxiv). This one is the `GAT(norm. adj.)+labels` version.
+The baseline model [here](https://github.com/Espylapiza/dgl/tree/master/examples/pytorch/ogb/ogbn-arxiv). We are using the `GAT(norm. adj.)+labels` version.
         
-        python gat_dgl/gat.py --use-norm --use-labels
+    python gat_dgl/gat.py --use-norm --use-labels
