@@ -1,6 +1,6 @@
-# FLAG
+# ogbg-mol
 
-To run in the default setup and reproduce experimental results, below are the commands.
+To train baselines with FLAG in the default setup, run
 
 **ogbg-molhiv**, the baseline model [here](https://github.com/lightaime/deep_gcns_torch/tree/master/examples/ogb).
 
