@@ -188,14 +188,15 @@ class GNN_node_Virtualnode(torch.nn.Module):
                                                     torch.nn.Linear(2*emb_dim, emb_dim), torch.nn.BatchNorm1d(emb_dim), torch.nn.ReLU()))
 
 
-    def forward(self, batched_data):
+    def forward(self, batched_data, perturb=None):
 
         x, edge_index, edge_attr, batch = batched_data.x, batched_data.edge_index, batched_data.edge_attr, batched_data.batch
 
         ### virtual node embeddings for graphs
         virtualnode_embedding = self.virtualnode_embedding(torch.zeros(batch[-1].item() + 1).to(edge_index.dtype).to(edge_index.device))
 
-        h_list = [self.node_encoder(x)]
+        tmp = self.node_encoder(x) + perturb if perturb is not None else self.node_encoder(x)
+        h_list = [tmp]
         for layer in range(self.num_layer):
             ### add message from virtual nodes to graph nodes
             h_list[layer] = h_list[layer] + virtualnode_embedding[batch]
