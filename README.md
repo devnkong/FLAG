@@ -7,9 +7,9 @@ This is the official repo for the paper [FLAG: Adversarial Data Augmentation for
 ### Highlights
 
 - **Simple**, adding just a dozen lines of code
-- **Genera**l, directly applied to any GNN baseline
+- **Genera**l, applicable to any GNN baseline
 - **Versatile**, working on both node and graph classification tasks
-- **Scalable**, minimum extra memory overhead, working on the original infrastructure
+- **Scalable**, minimum memory overhead, working on the original infrastructure
 
 ## Experiments
 
