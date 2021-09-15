@@ -21,9 +21,9 @@ To view the empirical performance of FLAG, please visit the Open Graph Benchmark
 
 ### Requirements
 
-- ogb=1.2.3
-- torch-geometric=1.6.1
-- torch=1.5.0
+- ogb>=1.2.3
+- torch-geometric>=1.6.1
+- torch>=1.5.0
 
 ## Citing FLAG
 
