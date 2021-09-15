@@ -17,7 +17,7 @@ To reproduce experimental results for **DeeperGCN**, visit [here](https://github
 
 Other baselines including **GCN**, **GraphSAGE**, **GAT**, **GIN**, **MLP**, etc. are available [here](https://github.com/devnkong/FLAG/tree/main/ogb).
 
-To view the empirical performance of FLAG, please visit the Open Graph Benchmark [Node](https://ogb.stanford.edu/docs/leader_nodeprop/) an [Graph](https://ogb.stanford.edu/docs/leader_graphprop/) classification leaderboards.
+To view the empirical performance of FLAG, please visit the Open Graph Benchmark [Node](https://ogb.stanford.edu/docs/leader_nodeprop/) and [Graph](https://ogb.stanford.edu/docs/leader_graphprop/) classification leaderboards.
 
 ### Requirements
 
@@ -27,7 +27,7 @@ To view the empirical performance of FLAG, please visit the Open Graph Benchmark
 
 ## Citing FLAG
 
-If you use FLAG in your work, please cite our paper.
+If you find FLAG useful, please cite our paper.
 
 ```
 @misc{kong2020flag,
