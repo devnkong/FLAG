@@ -1,6 +1,6 @@
 # Robust Optimization as Data Augmentation for Large-scale Graphs
 
-This is the official repo for the paper [Robust Optimization as Data Augmentation for Large-scale Graphs](https://arxiv.org/abs/2010.09891).
+This is the official repo for the paper [Robust Optimization as Data Augmentation for Large-scale Graphs](https://arxiv.org/abs/2010.09891), accepted at CVPR2022.
 
 **TL;DR:** FLAG augments node features to generalize GNNs on both node and graph classification tasks.
 
