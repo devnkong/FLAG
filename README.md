@@ -1,6 +1,6 @@
-# FLAG: Adversarial Data Augmentation for Graph Neural Networks
+# Robust Optimization as Data Augmentation for Large-scale Graphs
 
-This is the official repo for the paper [FLAG: Adversarial Data Augmentation for Graph Neural Networks](https://arxiv.org/abs/2010.09891).
+This is the official repo for the paper [Robust Optimization as Data Augmentation for Large-scale Graphs](https://arxiv.org/abs/2010.09891).
 
 **TL;DR:** FLAG augments node features to generalize GNNs on both node and graph classification tasks.
 
@@ -30,10 +30,10 @@ To view the empirical performance of FLAG, please visit the Open Graph Benchmark
 If you find FLAG useful, please cite our paper.
 
 ```
-@misc{kong2020flag,
-      title={FLAG: Adversarial Data Augmentation for Graph Neural Networks}, 
+@misc{kong2022robust,
+      title={Robust Optimization as Data Augmentation for Large-scale Graphs}, 
       author={Kezhi Kong and Guohao Li and Mucong Ding and Zuxuan Wu and Chen Zhu and Bernard Ghanem and Gavin Taylor and Tom Goldstein},
-      year={2020},
+      year={2022},
       eprint={2010.09891},
       archivePrefix={arXiv},
       primaryClass={cs.LG}
