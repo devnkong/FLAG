@@ -30,12 +30,22 @@ To view the empirical performance of FLAG, please visit the Open Graph Benchmark
 If you find FLAG useful, please cite our paper.
 
 ```
-@misc{kong2022robust,
-      title={Robust Optimization as Data Augmentation for Large-scale Graphs}, 
-      author={Kezhi Kong and Guohao Li and Mucong Ding and Zuxuan Wu and Chen Zhu and Bernard Ghanem and Gavin Taylor and Tom Goldstein},
-      year={2022},
-      eprint={2010.09891},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@misc{https://doi.org/10.48550/arxiv.2010.09891,
+  doi = {10.48550/ARXIV.2010.09891},
+  
+  url = {https://arxiv.org/abs/2010.09891},
+  
+  author = {Kong, Kezhi and Li, Guohao and Ding, Mucong and Wu, Zuxuan and Zhu, Chen and Ghanem, Bernard and Taylor, Gavin and Goldstein, Tom},
+  
+  keywords = {Machine Learning (cs.LG), Machine Learning (stat.ML), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Robust Optimization as Data Augmentation for Large-scale Graphs},
+  
+  publisher = {arXiv},
+  
+  year = {2020},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
 }
+
 ```
