@@ -32,19 +32,12 @@ If you find FLAG useful, please cite our paper.
 ```
 @misc{https://doi.org/10.48550/arxiv.2010.09891,
   doi = {10.48550/ARXIV.2010.09891},
-  
   url = {https://arxiv.org/abs/2010.09891},
-  
   author = {Kong, Kezhi and Li, Guohao and Ding, Mucong and Wu, Zuxuan and Zhu, Chen and Ghanem, Bernard and Taylor, Gavin and Goldstein, Tom},
-  
   keywords = {Machine Learning (cs.LG), Machine Learning (stat.ML), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  
   title = {Robust Optimization as Data Augmentation for Large-scale Graphs},
-  
   publisher = {arXiv},
-  
   year = {2020},
-  
   copyright = {arXiv.org perpetual, non-exclusive license}
 }
 
